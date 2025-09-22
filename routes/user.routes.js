@@ -7,11 +7,11 @@ userRouter.get('/', (req, res) => {
 });
 
 userRouter.get('/:id', (req, res) => {
-    res.send({title: "Get user by id"});
+    res.send({title: "Get user details"});
 });
 
 userRouter.post('/', (req, res) => {
-    res.send({title: "Create user"});
+    res.send({title: "Create new user"});
 });
 
 userRouter.put('/:id', (req, res) => {
